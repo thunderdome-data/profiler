@@ -1,0 +1,170 @@
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.th {
+	width: 115px;
+	height: 135px;
+	background-color: #CCC;
+	float: left;
+	margin: 0px 6px 6px 0px;
+	overflow: hidden;
+	position: relative;
+}
+.th:hover {
+	-moz-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+	cursor: pointer;
+}
+
+.thname {
+	height: 13px;
+	background-color: #000;
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	bottom: 0;
+	padding: 5px;
+	color: #FFF;
+	font: 11px Arial, sans-serif;
+	z-index: 100;
+	width: 100%;
+}
+
+.th img {
+	position: absolute;
+	top: 0;	
+	width: 115px;
+	height: 135px;
+}
+
+#detail {
+	width: 100%;
+	min-height: 100%;
+	background-color: #FFF;
+	background-color: rgba(255, 255, 255, .75);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	z-index: 101;
+}
+
+#detail #detailcon {
+	width: 445px;
+	height: 300px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	-moz-box-shadow: 0 0 15px #999;
+	-webkit-box-shadow: 0 0 15px #999;
+	box-shadow: 0 0 15px #999;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	position: relative;
+}
+
+#detail #photocon {
+	width: 115px;
+	height: 135px;
+	background-color: #333;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+#detail #closebtn {
+	font: bold 12px Arial, Sans Serif;
+	float: right;
+	color: #999;
+	border: 1px solid #CCC;
+	padding: 0 2px 0 2px;
+}
+
+#detail #closebtn:hover {
+	color: #000;
+	cursor: pointer;
+}
+
+#detail #name {
+	color: #333;
+	font: bold 20px Arial;
+	margin-top: 10px;
+}
+
+#detail .dataDisp {
+	color: #666;
+	font: 13px Arial;
+	margin-top: 5px;
+}
+
+#detail #blurb, #vid {
+	color: #333;
+	font: 14px Arial;
+	line-height: 1.2em;
+	margin-top: 15px;
+	
+	
+}
+
+#detail #desc a {
+	color: #6699CC;
+	text-decoration: none;
+}
+
+#detail #desc a:hover {
+	text-decoration: underline;
+}
+
+#detail #audiodesc{
+	color: #333;
+	font: 13px Arial;
+	width: 200px;
+	margin-top: 20px;
+	float: left;
+}
+
+#detail #audiocon {
+	width: 200px;
+	margin-top: 5px;
+	float: left;
+}
+
+#detail #detailcon #photocred {
+	font: italic 11px Arial;
+	width: 200px;
+	color: #999;
+
+}
+
+.hoverarea {
+	width: 111px;
+	height: 135px;
+	position: absolute;
+	top: 0;	
+}
+
+.hoverarea:hover {
+	border: 2px solid #000;
+	-moz-box-shadow: inset 0 0 15px #000;
+	box-shadow: inset 0 0 15px #000;
+}
+
+
+#prevbtn a, #nextbtn a { 
+	position: absolute; 
+	top: 75px; 
+	left: -35px; 
+	font: bold 50px Arial; 
+	text-shadow: 2px 2px 1px #FFF; 
+	color: #666; 
+	text-decoration: none; 
+}
+#nextbtn a { left: 480px;  }
+#nextbtn:hover, #prevbtn:hover { color: #000; cursor: pointer }
+
