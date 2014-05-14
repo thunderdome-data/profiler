@@ -4,7 +4,8 @@ profiler
 What is this?
 -------------
 
-Template for profiling individuals
+Template for profiling individuals. Demo: http://www.nhregister.com/general-news/20121215/newtown-shooting-victims-names-profiles-of-the-27-people-killed
+
 Credits
 ---------
 
