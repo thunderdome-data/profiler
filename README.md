@@ -4,7 +4,7 @@ profiler
 What is this?
 -------------
 
-Template for profiling individuals. We used this several times, but the first iteration was built on deadline the day of the mass shootings at Sandy Hook Elementary School in Netwon, Connecticut. Demo: http://www.nhregister.com/general-news/20121215/newtown-shooting-victims-names-profiles-of-the-27-people-killed
+Responsive template for profiling individuals. We used this several times, but the first iteration was built on deadline the day of the mass shootings at Sandy Hook Elementary School in Netwon, Connecticut. Demo: http://www.nhregister.com/general-news/20121215/newtown-shooting-victims-names-profiles-of-the-27-people-killed
 
 ![Sandy Hook victims](screenshots/profiler.png)
 
