@@ -75,16 +75,20 @@ function prevPerson() {
 	showDetail(current);
 }
 function checkNav() {
+
+	var $prevbtn = $("#prevbtn");
+	var $nextbtn = $("#nextbtn");
+
 	if (current == 0) {
-		$("#prevbtn").hide();
+		$prevbtn.hide();
 	} else {
-		$("#prevbtn").show();
+		$prevbtn.show();
 	}
 
 	if (current == totalEntries - 1) {
-		$("#nextbtn").hide();
+		$nextbtn.hide();
 	} else {
-		$("#nextbtn").show();
+		$nextbtn.show();
 	}
 }
 
@@ -108,29 +112,14 @@ function populateGrid() {
 	}
 	
 	for (var i = 0; i<totalEntries; i++) {
-		var node = document.createElement("div");
-		node.setAttribute('id', i);
-		node.setAttribute('class', 'th');
-		$("#container").append(node);
-		
-		var thethumb = new Image();
-		thethumb.src = "imgs/" + allData[i][0].photourl;
-		
-		var nodelabel = document.createElement("div");
-		nodelabel.setAttribute('id', 'label' + i);
-		nodelabel.setAttribute('class', 'thname');
-		
-		var nodehover = document.createElement("div");
-		nodehover.setAttribute('class', 'hoverarea');
-		
-		$("#container #" + i).append(nodelabel);
-		$("#label" + i).text(allData[i][0].name);
-		
-		$("#container #" + i).append(thethumb);
-		$("#container #" + i).append(nodehover);
-		
-		node.onclick = function() { showDetail(this.id); };	
-		
+
+		var context = {
+			id: i,
+			name: allData[i][0].name,
+			photo: allData[i][0].photourl
+		}
+
+		$("#container").append(Handlebars.templates['th-template'](context));
 		
 	}
 	
