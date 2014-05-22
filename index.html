@@ -6,46 +6,32 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet"  href="css/reset.css" />
 	<link rel="stylesheet"  href="css/profiler.css" />
-	
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
 </head>
 <body>
-	<script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
-	<script type="text/javascript" src="js/compiled/th-template.runtime.js"></script>
-	<script type="text/javascript" src="js/miso.ds.deps.min.0.4.1.js"></script>
-	<script type="text/javascript" src="js/profiler.js"></script>
 	
 	<div id="wrapper">
-		
 		<div id="container"></div>
-		<div id="detail">
-			
-			<div id="detailcon">
-				<div id="prevbtn"><a href="javascript:prevPerson()">«</a></div>
-				<div id="closebtn">X</div>
-				<div id="photocon"></div>
-				<div style="float: left">
-					<div id="name"></div>
-					<div id="data1" class="dataDisp"></div>
-					<div id="data2" class="dataDisp"></div>
-					<div id="data3" class="dataDisp"></div>
-				</div>
-				<div style="clear:both"></div>
-				<div id="blurb"></div>
-				<div id="nextbtn"><a href="javascript:nextPerson()">»</a></div>
-			</div>
-
-		</div>
-		
-		
+		<div id="detail"></div>
 	</div>
 
 	<div style="clear:both"></div>
-	<!--<div style="font: italic 11px Arial; color: #999; margin: 20px 0 10px 0; border-top: 1px solid #e2e2e2; padding: 5px 0 5px 0; ">Credits: Joe Morelli, Mike Wollschlager / </div>-->
-	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
+	<script type="text/javascript" src="js/compiled/th-template.runtime.js"></script>
+	<script type="text/javascript" src="js/compiled/display-template.runtime.js"></script>
+	<script type="text/javascript" src="js/miso.ds.deps.min.0.4.1.js"></script>
+	<script type="text/javascript" src="js/profiler.js"></script>
+	<script type="text/javascript">
 
-             
+		photoGrid.init({
+			googleKey: "0AurS2EUbrPERdE9Nc1dMSGdfenFCN0FCTk9jZF9TVWc"
+		});
+
+	</script>
+
+
+	<!--<div style="font: italic 11px Arial; color: #999; margin: 20px 0 10px 0; border-top: 1px solid #e2e2e2; padding: 5px 0 5px 0; ">Credits: Joe Morelli, Mike Wollschlager / </div>-->
 
 </body>
 </html>    
