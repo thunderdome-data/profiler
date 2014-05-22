@@ -37,7 +37,7 @@ function loadData(which) {
 	    populateGrid();
 	  },
 	  error : function() {
-	    //console.log("What the frak?");
+	  	console.log("ERROR: Failed to load Google Spreadsheet");
 	  }
 	});
 }
