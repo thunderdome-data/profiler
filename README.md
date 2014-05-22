@@ -19,6 +19,7 @@ Assumptions
 * Google docs
 * jQuery
 * Miso
+* Handlebars
 
 What's in here?
 ---------------

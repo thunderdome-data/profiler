@@ -45,6 +45,9 @@ function loadData(which) {
 
 function showDetail(which) {
 	current = which;
+
+	console.log(current);
+
 	$("#detail").show();
 	$("#detail").animate({ opacity: '1' }, 500);
 	
