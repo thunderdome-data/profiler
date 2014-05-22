@@ -33,7 +33,6 @@ function loadData(which) {
 
 	ds.fetch({ 
 	  success : function() {
-	    //console.log("So say we all!");
 	    populateGrid();
 	  },
 	  error : function() {
