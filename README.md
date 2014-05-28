@@ -19,6 +19,7 @@ Assumptions
 * Google docs
 * jQuery
 * Miso
+* Handlebars
 
 What's in here?
 ---------------
@@ -28,7 +29,7 @@ The project contains the following folders and important files:
 * ``index.html`` 
 * ``/js`` -- Javascript
 * ``/css`` -- Strangely enough, stylesheets
-* ``/img`` -- You can place your images here. There's a placeholder for you in there.
+* ``/imgs`` -- You can place your images here. There's a placeholder for you in there.
 
 How to use this
 ---------------
