@@ -17,6 +17,7 @@ Credits
 ---------
 
 [Nelson Hsu](https://github.com/hsunelson)
+
 [Frank Bi](https://github.com/frankbi)
 
 Assumptions
