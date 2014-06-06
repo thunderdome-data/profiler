@@ -12,7 +12,7 @@ Demo: http://www.nhregister.com/general-news/20121215/newtown-shooting-victims-n
 
 Other examples:
 * The Indy Channel's [Indy 500 preview](http://media2.scrippsnationalnews.com/html/indyprofiler/index.html)
-* SI.com's cover of [Ed O'Bannon v. NCAA](http://college-football.si.com/2014/06/05/ed-obannon-ncaa-trial-key-figures/)
+* SI.com's coverage of [Ed O'Bannon v. NCAA](http://college-football.si.com/2014/06/05/ed-obannon-ncaa-trial-key-figures/)
 
 Credits
 ---------
