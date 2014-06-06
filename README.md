@@ -4,7 +4,7 @@ profiler
 What is this?
 -------------
 
-Responsive template for profiling individuals. We used this several times, but the first iteration was built on deadline the day of the mass shootings at Sandy Hook Elementary School in Netwon, Connecticut. 
+Responsive template for profiling individuals. We used this several times, but the first iteration was built on deadline the day of the mass shootings at Sandy Hook Elementary School in Netwon, Connecticut.
 
 Demo: http://www.nhregister.com/general-news/20121215/newtown-shooting-victims-names-profiles-of-the-27-people-killed
 
@@ -12,13 +12,13 @@ Demo: http://www.nhregister.com/general-news/20121215/newtown-shooting-victims-n
 
 Other examples:
 * The Indy Channel's [Indy 500 preview](http://media2.scrippsnationalnews.com/html/indyprofiler/index.html)
+* SI.com's cover of [Ed O'Bannon v. NCAA](http://college-football.si.com/2014/06/05/ed-obannon-ncaa-trial-key-figures/)
 
 Credits
 ---------
 
-[Nelson Hsu](https://github.com/hsunelson)
-
-[Frank Bi](https://github.com/frankbi)
+[Nelson Hsu](https://github.com/hsunelson), Project Thunderdome<br />
+[Frank Bi](https://github.com/frankbi), Newshour
 
 Assumptions
 -----------
@@ -33,7 +33,7 @@ What's in here?
 
 The project contains the following folders and important files:
 
-* ``index.html`` 
+* ``index.html``
 * ``/js`` -- Javascript
 * ``/css`` -- Strangely enough, stylesheets
 * ``/imgs`` -- You can place your images here. There's a placeholder for you in there.
@@ -50,5 +50,3 @@ License
 ----------
 
 This code is available under the MIT license. For more information, please see the LICENSE file in this repo.
-
-
