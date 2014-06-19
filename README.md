@@ -14,6 +14,7 @@ Other examples:
 * The Indy Channel's [Indy 500 preview](http://media2.scrippsnationalnews.com/html/indyprofiler/index.html)
 * SI.com's coverage of [Ed O'Bannon v. NCAA](http://college-football.si.com/2014/06/05/ed-obannon-ncaa-trial-key-figures/)
 * Madison.com's look at the [US National Team](http://host.madison.com/sports/soccer/world-cup/united-states-world-cup-team-profiles/html_ab209018-ec19-11e3-97fb-001a4bcf887a.html) ahead of the World Cup.
+* NJ.com's story on [amusement park accidents](http://www.nj.com/news/index.ssf/2014/06/more_accidents_happen_in_water_rides_and_go-karts_data_shows.html)
 
 Credits
 ---------
