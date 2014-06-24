@@ -56,7 +56,9 @@ body {
 
 #detail #detailcon {
 	width: 445px;
-	height: 300px;
+	/* Uncomment to restrict height */
+	/* height: 300px; */
+	
 	background-color: #FFF;
 	border: 1px solid #CCC;
 	-moz-box-shadow: 0 0 15px #999;
