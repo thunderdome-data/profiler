@@ -101,6 +101,7 @@ body {
 	color: #666;
 	font: 13px Arial;
 	margin-top: 5px;
+	max-width: 350px;
 }
 
 #detail #blurb, #vid {
