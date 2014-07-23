@@ -22,7 +22,7 @@ Contributors
 
 [Nelson Hsu](https://github.com/hsunelson), Project Thunderdome<br />
 [Frank Bi](https://github.com/frankbi), Newshour<br />
-[Tony Papousek](https://twitter.com/TonyPapousek), Foreign Policy
+[Tony Papousek](https://github.com/TonyPapousekFP), Foreign Policy
 
 Assumptions
 -----------
