@@ -15,12 +15,14 @@ Other examples:
 * SI.com's coverage of [Ed O'Bannon v. NCAA](http://college-football.si.com/2014/06/05/ed-obannon-ncaa-trial-key-figures/)
 * Madison.com's look at the [US National Team](http://host.madison.com/sports/soccer/world-cup/united-states-world-cup-team-profiles/html_ab209018-ec19-11e3-97fb-001a4bcf887a.html) ahead of the World Cup.
 * NJ.com's story on [amusement park accidents](http://www.nj.com/news/index.ssf/2014/06/more_accidents_happen_in_water_rides_and_go-karts_data_shows.html)
+* Foreign Policy's look at [who should replace Maliki](http://www.foreignpolicy.com/articles/2014/06/24/who_should_replace_maliki_iraq_isis_john_kerry_kurdistan_chalabi_allawi)
 
-Credits
+Contributors
 ---------
 
 [Nelson Hsu](https://github.com/hsunelson), Project Thunderdome<br />
-[Frank Bi](https://github.com/frankbi), Newshour
+[Frank Bi](https://github.com/frankbi), Newshour<br />
+[Tony Papousek](https://twitter.com/TonyPapousek), Foreign Policy
 
 Assumptions
 -----------
